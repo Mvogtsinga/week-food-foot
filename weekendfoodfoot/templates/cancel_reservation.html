@@ -3,12 +3,12 @@
 
 {% block content %}
 <div class="container mt-5">
-    <h3>Annuler la réservation</h3>
-    <p>Êtes-vous sûr de vouloir annuler votre réservation pour la table : {{ reservation.table_type.name }} le {{ reservation.date|date:"d M Y" }} ({{ reservation.date|date:"l" }}) ?</p>
+    <h3>Cancelled booking</h3>
+    <p>are you sure you want to cancel your table reservation? : {{ reservation.table_type.name }} le {{ reservation.date|date:"d M Y" }} ({{ reservation.date|date:"l" }}) ?</p>
     <form method="post" action="">
         {% csrf_token %}
-        <button type="submit" class="btn btn-danger">Oui, annuler</button>
-        <a href="{% url 'account' %}" class="btn btn-secondary">Non, revenir</a>
+        <button type="submit" class="btn btn-danger">Yes, cancelled</button>
+        <a href="{% url 'account' %}" class="btn btn-secondary">No, back</a>
     </form>
 </div>
 {% endblock %}
