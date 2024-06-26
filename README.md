@@ -204,11 +204,11 @@ I was testing for responsiveness on an Ideapad laptop and a Samsung Galaxy A5 us
   
   > Pictures
 
-- [Mid-coated Brown Cat](https://www.pexels.com/photo/mid-coated-brown-cat-982865/) by <b>Alena Koval</b> on Pexels
-- [Cat at the table](https://unsplash.com/photos/black-cat-on-white-table-ZxChxgJa6X0) by <b>Madalyn Cox</b> on Unsplash
-- [Cup of coffee](https://pixabay.com/photos/tea-cat-coffee-coffee-shop-cup-2343391/) by <b>yukiqwa</b> on Pixabay
-- [Black Steel Welcome Hanging Signage](https://www.pexels.com/photo/black-steel-welcome-hanging-signage-1406282/) by <b>Henry & Co.</b> on Pexels
-- [Menu background](https://pixabay.com/photos/coffee-mug-heart-caffeine-food-5176961/) by <b>Konrad Janik</b> on Pixabay
+- [Chef_team](https://unsplash.com/photos/man-in-black-t-shirt-holding-stainless-steel-bowl-eBmyH7oO5wY) by <b>Sebastian Coman Photography </b> on Unsplash
+- [Food_WFF](https://unsplash.com/photos/grilled-fish-dish-vBOxsZrfiCw) by <b>Mgg Vitchakorn</b> on Unsplash
+- [Restaurant_WFF](https://unsplash.com/photos/black-pendant-lamp-turned-on-oMTlhdFUhdI) by <b>yMaria Orlova</b> on Unsplash
+- [Servant](https://unsplash.com/photos/man-in-black-t-shirt-holding-stainless-steel-bowl-eBmyH7oO5wY) by <b>Stefan Schauberger</b> on Unsplash
+- [Order_WFF](https://unsplash.com/photos/dish-on-white-ceramic-plate-N_Y88TWmGwA) by <b>Jay Wennington</b> on Unsplash
 
 - Cat carousel pictures:
   1. [Fluffy black cat](https://pixabay.com/photos/couch-cat-pet-feline-animal-6654015/) by <b>Spike Summers</b> on Pixabay 
