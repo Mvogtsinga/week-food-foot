@@ -3,7 +3,7 @@
 
 {% block content %}
 <div class="container mt-5">
-    <h3>Mes réservations</h3>
+    <h3>My reservation</h3>
     <div class="row">
         {% for reservation in reservations %}
         <div class="col-md-4 mb-4">
@@ -17,7 +17,7 @@
                         Statut: <span class="{{ reservation.status_color }}">{{ reservation.get_status_display }}</span>
                     </p>
                     <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#cancelModal" data-reservation-id="{{ reservation.id }}">
-                        Annuler
+                        Cancelled
                     </button>
                 </div>
             </div>
@@ -25,7 +25,7 @@
         {% empty %}
         <div class="col-12">
             <div class="alert alert-info" role="alert">
-                Aucune réservation effectuée.
+                You did not have any reservation.
             </div>
         </div>
         {% endfor %}
@@ -37,12 +37,12 @@
         <li>Nom: {{ user.username }}</li>
         <li>Email: {{ user.email }}</li>
         <li>
-            <a href="{% url 'password_change' %}">Modifier le mot de passe</a>
+            <a href="{% url 'password_change' %}">Change my password</a>
         </li>
     </ul>
     <form action="{% url 'account_delete' %}" method="post">
         {% csrf_token %}
-        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteModal">Supprimer mon compte</button>
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteModal">Delete my account</button>
     </form>
 </div>
 
@@ -51,13 +51,13 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="cancelModalLabel">Confirmation d'annulation</h5>
+                <h5 class="modal-title" id="cancelModalLabel">cancelled Confirmation </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                Êtes-vous sûr de vouloir annuler cette réservation ?
+                Are you sure you wand to cancelled this booking ?
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
@@ -75,13 +75,13 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="deleteModalLabel">Confirmation de suppression</h5>
+                <h5 class="modal-title" id="deleteModalLabel">Delete Confirmation </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                Êtes-vous sûr de vouloir supprimer votre compte ?
+                are you sure you wand to delete your account ?
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>

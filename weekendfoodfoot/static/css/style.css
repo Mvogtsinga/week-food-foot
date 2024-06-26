@@ -181,7 +181,7 @@ body {
     position: relative;
     padding: 20px 0; /* Ajoutez du padding pour l'espace autour du contenu */
     height: 90vh;
-    background-image: url('../images/1734.jpg');
+    background-image: url('../images/Order_WFF.jpg');
     display: flex; /* Utilisez Flexbox pour centrer le contenu */
     align-items: center; /* Centre verticalement */
     justify-content: center; /* Centre horizontalement */
@@ -243,7 +243,7 @@ body {
 @media screen and (min-width: 769px) {
     .section-bg-2 {
         position: relative;
-        background-image: url('../images/36019.jpg'); /* Remplacez par le chemin de votre image */
+        background-image: url('../images/Menu_WFF.png'); /* Remplacez par le chemin de votre image */
         background-size: contain; /* Couvre entièrement la section avec l'image */
         background-position: 20% 50%; /* Centre l'image */
         background-repeat: no-repeat;
@@ -271,7 +271,7 @@ body {
 @media screen and (min-width: 769px) {
     .section-bg-6 {
         position: relative;
-        background-image: url('../images/2151208273.jpg'); /* Remplacez par le chemin de votre image */
+        background-image: url('../images/Servant.jpg'); /* Remplacez par le chemin de votre image */
         background-size: contain; /* Couvre entièrement la section avec l'image */
         background-position: left; /* Centre l'image */
         background-repeat: no-repeat;
@@ -299,7 +299,7 @@ body {
 @media screen and (min-width: 769px) {
     .section-bg-3 {
         position: relative;
-        background-image: url('../images/28956.jpg'); /* Remplacez par le chemin de votre image */
+        background-image: url('../images/Food_WFF.jpg'); /* Remplacez par le chemin de votre image */
         background-size: contain; /* Couvre entièrement la section avec l'image */
         background-position: right; /* Centre l'image */
         background-repeat: no-repeat;
@@ -327,7 +327,7 @@ body {
 @media screen and (min-width: 769px) {
     .section-bg-7 {
         position: relative;
-        background-image: url('../images/43346.jpg'); /* Remplacez par le chemin de votre image */
+        background-image: url('../images/Chef_team.jpg'); /* Remplacez par le chemin de votre image */
         background-size: contain; /* Couvre entièrement la section avec l'image */
         background-position: right; /* Centre l'image */
         background-repeat: no-repeat;
@@ -355,7 +355,7 @@ body {
 @media screen and (min-width: 769px) {
     .section-bg-4 {
         position: relative;
-        background-image: url('../images/445.jpg'); /* Remplacez par le chemin de votre image */
+        background-image: url('../images/Restaurant_WFF.jpg'); /* Remplacez par le chemin de votre image */
         background-size: contain; /* Couvre entièrement la section avec l'image */
         background-position: left; /* Centre l'image */
         background-repeat: no-repeat;
@@ -434,7 +434,7 @@ body {
 
 /***********************************************************************************************/
 .login-background {
-    background-image: url('../images/445.jpg');
+    background-image: url('../images/Restaurant_WFF.jpg');
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -448,7 +448,7 @@ body {
 }
 .section-bg-5 {
     position: relative;
-    background-image: url('../images/36019.jpg'); /* Remplacez par le chemin de votre image */
+    background-image: url('../images/Menu_WFF.png'); /* Remplacez par le chemin de votre image */
     background-size: contain; /* Couvre entièrement la section avec l'image */
     background-position: 50% 75%; /* Centre l'image */
     background-repeat: no-repeat;
