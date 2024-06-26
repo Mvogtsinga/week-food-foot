@@ -1,4 +1,4 @@
-![wff-removebg-preview](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/45da98b2-2dc6-4b51-a790-09004a47af20)
+![logowwf](https://github.com/Mvogtsinga/weekendfoodfoot/assets/152321059/0afe3128-79f2-43a7-9e0c-38750440edb7)
 
 # Welcome to WEEKENDFOODFOOT Restaurant <br>
 ### A restaurant website <br>
