@@ -23,9 +23,9 @@
 
                     {% if table.is_available %}
                     
-                    <p class="card-text text-danger">Non disponible</p>
+                    <p class="card-text text-danger">Not available</p>
                     {% else %}
-                    <p class="card-text text-success">Disponible</p>
+                    <p class="card-text text-success">Available</p>
                     
                     {% endif %}
 
@@ -33,18 +33,18 @@
                         {% csrf_token %}
                         <input type="hidden" name="table_type" value="{{ table.id }}">
                         <div class="mb-3">
-                            <label for="date-{{ forloop.counter }}" class="form-label">Date de réservation :</label>
+                            <label for="date-{{ forloop.counter }}" class="form-label">Reservation day :</label>
                             <input id="date-{{ forloop.counter }}" type="date" name="date" min="{{ default_date }}" value="{{ request.POST.date|default:default_date }}" class="form-control" required>
                         </div>
                         <div class="mb-3">
-                            <label for="time-{{ forloop.counter }}" class="form-label">Heure de réservation :</label>
+                            <label for="time-{{ forloop.counter }}" class="form-label">Reservation time :</label>
                             <input id="time-{{ forloop.counter }}" type="time" name="time" value="{{ request.POST.time|default:'12:00' }}" class="form-control" required>
                         </div>
                         <div class="mb-3">
-                            <label for="duration-{{ forloop.counter }}" class="form-label">Durée de réservation (6h max) :</label>
+                            <label for="duration-{{ forloop.counter }}" class="form-label">Duration of the reservation (6h max) :</label>
                             <input id="duration-{{ forloop.counter }}" type="number" name="duration" min="1" max="2" value="{{ request.POST.duration|default:2 }}" class="form-control" required>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-readmore">Réserver</button>
+                        <button type="submit" class="btn btn-primary btn-readmore">Book</button>
                     </form>
                 </div>
             </div>
