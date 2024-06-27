@@ -86,10 +86,22 @@ I wanted my website to look professional and modern. playing with yellow and bla
 
 ### Wireframes
 
-The next stage of UX design planning was creating the basic wireframes using [Figma](https://www.figma.com/).
-My intention was to create visually pleasing and easy to navigate website. Below I did not include the base homepage and login page, as I used the initial planning examples from above instead.
+I used the wireframe [Balsamiq](https://www.balsamiq.com) to have a clear view about the futur website as next stage of UX design planning.I wanted to have a realistic overview of my future website and make it easy for the user to navigate throughout the different pages.I plan to build the website like this:
 
->
+> Login page
+![login_page_wireframe](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/81844646-2438-4954-929f-4acf10759cb4)
+
+> Home page
+![menu_food_page_wireframe](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/c63423e6-38a2-4dad-b826-2ce48bd20667)
+
+> Reserve_table page
+![reserve_table_page_wireframe](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/714aa37d-ad8c-48f0-bbd4-973e24b7199b)
+
+> Menu_foods page
+![menu_food_page_wireframe](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/79928812-54a6-48fb-ada1-b4a18d463d75)
+
+> Account page
+![account_page_wireframe](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/fd5dccf8-3817-4b8c-b642-f8a8610d937a)
 
 
 
