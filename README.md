@@ -34,15 +34,18 @@ A responsive,restaurant website with registration and table booking system with 
 ## Design
 Initial design planing
 The first design of this project was to choice and appeling picture for the homepage and login features prototypes.
-![home wff](https://github.com/Mvogtsinga/weekendfoodfoot/assets/152321059/d74240f8-4a5d-4364-b24d-fd2b182d3c6e)
 
-![userlogin wff](https://github.com/Mvogtsinga/weekendfoodfoot/assets/152321059/8491c30e-b6b0-4453-a31b-d654bcfa7ac2)
+![Home_WFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/78d9f5a2-2f6d-4e12-bef1-b0f335d10bab)
 
-![signup wff](https://github.com/Mvogtsinga/weekendfoodfoot/assets/152321059/0ef76d89-4f78-4716-bd44-3f61507c8e02)"
+![UserLoginPortal_sWFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/5d3eadc6-f9dd-4b61-83bc-9ff153d764f1)
 
-![reservation wff](https://github.com/Mvogtsinga/weekendfoodfoot/assets/152321059/b9f69e95-6988-4c44-b204-7e90d4b4f884)"
 
-![menu wff](https://github.com/Mvogtsinga/weekendfoodfoot/assets/152321059/aaf7196f-a355-4eea-adc7-ba78e2ba61f6)"
+![Menu_sWFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/92fd112d-ce6c-4a3c-930a-0cc656c305f9)
+
+![Services_sWFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/8cf3cec7-9d73-42db-a369-4f3ce83df84a)
+
+![Admin_sWFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/4756bf1f-5b6e-4c1e-a4c1-c2bc43dbf75c)
+
 
 # Agile Development
 ## Overview
@@ -199,7 +202,7 @@ I was testing for responsiveness on an Ideapad laptop and a Samsung Galaxy A5 us
 
 ## Credits
 
-- Images : Unsplash, Freepik
+- Images : Unsplash, Freepik,Postermywall
 - templates: code institute
   
   > Pictures
@@ -212,9 +215,12 @@ I was testing for responsiveness on an Ideapad laptop and a Samsung Galaxy A5 us
 - [VIP](https://www.freepik.com/free-photo/restaurant-table-with-white-lace-table-cloth-blue-napkins_6317252.htm#fromView=search&page=1&position=26&uuid=a1c58395-9bb8-4675-81ba-f5068179abde) by <b>images</b> on Freepik
 -  [Extra Famille](https://www.freepik.com/free-photo/modern-restaurant-with-various-places_7873940.htm#fromView=search&page=1&position=24&uuid=a1c58395-9bb8-4675-81ba-f5068179abde) by <b>image</b> on Freepik
 -   [Couple](https://www.freepik.com/free-photo/view-beautifully-decorated-round-table-with-natural-fir-branch-candle-two-flutes-plates-against-classic-sofa-modern-apartment_10909128.htm#fromView=search&page=1&position=10&uuid=a1c58395-9bb8-4675-81ba-f5068179abde) by <b>image</b> on Freepik
+-   [Chefs_Team](https://www.freepik.com/free-photo/close-up-chef-cooking-restaurant-kitchen_13273109.htm#fromView=search&page=1&position=2&uuid=c6b0e69d-0517-4c20-bdc0-674e6b168763) by <b> image</b> on Freepik
+- [Menu_WFF](https://fr.postermywall.com/index.php/art/template/22ed5dc89be68d06ae5171599c95a1a9/restaurant-menu-design-template) by <b> image</b> on Postermywall
+- [Chefs_Team](https://www.freepik.com/free-photo/close-up-chef-cooking-restaurant-kitchen_13273109.htm#fromView=search&page=1&position=2&uuid=c6b0e69d-0517-4c20-bdc0-674e6b168763) by <b> image</b> on Freepik
   
      
-> Template
+  > Template
 
 [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template)
 
