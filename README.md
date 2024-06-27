@@ -199,7 +199,7 @@ I was testing for responsiveness on an Ideapad laptop and a Samsung Galaxy A5 us
 
 ## Credits
 
-- Images : Unsplash
+- Images : Unsplash, Freepik
 - templates: code institute
   
   > Pictures
@@ -209,15 +209,14 @@ I was testing for responsiveness on an Ideapad laptop and a Samsung Galaxy A5 us
 - [Restaurant_WFF](https://unsplash.com/photos/black-pendant-lamp-turned-on-oMTlhdFUhdI) by <b>yMaria Orlova</b> on Unsplash
 - [Servant](https://unsplash.com/photos/man-in-black-t-shirt-holding-stainless-steel-bowl-eBmyH7oO5wY) by <b>Stefan Schauberger</b> on Unsplash
 - [Order_WFF](https://unsplash.com/photos/dish-on-white-ceramic-plate-N_Y88TWmGwA) by <b>Jay Wennington</b> on Unsplash
+- [VIP](https://www.freepik.com/free-photo/restaurant-table-with-white-lace-table-cloth-blue-napkins_6317252.htm#fromView=search&page=1&position=26&uuid=a1c58395-9bb8-4675-81ba-f5068179abde) by <b>images</b> on Freepik
+-  [Extra Famille](https://www.freepik.com/free-photo/modern-restaurant-with-various-places_7873940.htm#fromView=search&page=1&position=24&uuid=a1c58395-9bb8-4675-81ba-f5068179abde) by <b>image</b> on Freepik
+-   [Couple](https://www.freepik.com/free-photo/view-beautifully-decorated-round-table-with-natural-fir-branch-candle-two-flutes-plates-against-classic-sofa-modern-apartment_10909128.htm#fromView=search&page=1&position=10&uuid=a1c58395-9bb8-4675-81ba-f5068179abde) by <b>image</b> on Freepik
+  
+     
+> Template
 
-- Cat carousel pictures:
-  1. [Fluffy black cat](https://pixabay.com/photos/couch-cat-pet-feline-animal-6654015/) by <b>Spike Summers</b> on Pixabay 
-  2. [Calico cat](https://www.pexels.com/photo/calico-cat-1359300/) by <b>Cats Coming</b> on Pexels
-  3. [Orange tabby cat](https://www.pexels.com/photo/adorable-animal-cat-close-up-208930/) by <b>Pixabay</b> on Pexels
-  4. [Cat with a mouse toy](https://www.pexels.com/photo/cat-with-a-mouse-toy-3216568/) by <b>lil artsy</b> on Pexels
-  5. [Two cosy tabby cats](https://www.pexels.com/photo/two-tabby-kittens-lying-down-1787414/) by <b>Cats Comin</b> on Pexels
-  6. [Little kitten](https://www.pexels.com/photo/close-up-photo-of-orange-tabby-cat-2581153/) by <b>samer daboul</b> on Pexels
-  7. [Christmas kitten](https://www.pexels.com/photo/close-up-photography-of-white-cat-besides-christmas-lights-735423/) by <b>Eftodii Aurelia</b> on Pexels
+[Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template)
 
 
 ## Acknowledgements
