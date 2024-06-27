@@ -24,7 +24,73 @@ A responsive,restaurant website with registration and table booking system with 
 
 # UX
 ## Database planning 
-![IMG-20240325-WA0030](https://github.com/Mvogtsinga/weekendfoodfoot/assets/152321059/38c54b06-f9d6-456d-b70a-154f4c40fab0)
+### Data Structure
+![Data_Schema_Planing_WFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/40ead94d-67b9-4b91-aefb-0824294f15b5)
+- I used a lucidchart to have a clear orientation about the structure of the database.
+- The diagram is a guide to show the types and relationships between data stored.
+
+### Data models
+> UserProfile model
+
+- During the evolution of the project the data models looks as follows::
+
+| Key | Name | Field |
+|--|--|--|
+| PrimaryKey | client | OnetoOneField  |
+| x | user_name | Charfield |
+| x | first_name | Charfield |
+| x | last_name | Charfield |
+| x | email | Emailfield |
+
+---
+
+> Reservation's model
+
+| Key | Name | Field |
+|--|--|--|
+| ForeignKey | client_reservation | ForeignKey  |
+| x | reservation_day | DateField |
+| x | reservatin_time | CharField |
+| x | tables_option | CharField |
+| x | table_reservation  | TextField |
+| x | date_reservation | DateTimeField |
+| x | confirmation | IntegerField |
+| x | slug | AutoSlugField |
+
+---
+
+## UX design
+
+
+### Overview
+
+#### Design
+
+> Initial design planning
+
+Before starting to code, I chose to take some time to imagine the design of the home page of a restaurant.
+I wanted my website to look professional and modern. playing with yellow and black colours seems perfect for my project.
+![Home_WFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/f8f7c0be-e463-4070-8592-48edcea2a137)
+
+#### Site User
+
+- Someone over 16 years old from the restaurant's area
+- A Footballs fan looking for the place to view a games,to eat and to relax
+- Someone who prefers to arrange their bookings digitally rather than over the phone or in person
+
+#### Goals for the website
+
+- To allow client to see the menu before visiting the restaurant
+- To allow client to plan and book a table in advance
+- To safely store the bookings data and make it available for the superuser to approve or decline it in an easy way
+
+### Wireframes
+
+The next stage of UX design planning was creating the basic wireframes using [Figma](https://www.figma.com/).
+My intention was to create visually pleasing and easy to navigate website. Below I did not include the base homepage and login page, as I used the initial planning examples from above instead.
+
+>
+
 
 
 ## UX design
@@ -50,7 +116,7 @@ The first design of this project was to choice and appeling picture for the home
 # Agile Development
 ## Overview
 
-I started this project alongside GitHub Projects with intention of planning and tracking the workflow to manage the expected workload. After setting out the epics for my project I broke them down into a set of user stories and smaller tasks, to help me monitor my progress and finish the website in time. Outside of user stories I also included a separate issues for creating each module of this README file, as I simply found it more motivating this way. To see the project's Kanban page please click [here](https://github.com/users/TulaUnogi/projects/3/views/1).
+I started this project alongside GitHub Projects with intention of planning and tracking the workflow to manage the expected workload. After setting out the epics for my project I broke them down into a set of user stories and smaller tasks, to help me monitor my progress and finish the website in time. Outside of user stories I also included a separate issues for creating each module of this README file, as I simply found it more motivating this way. To see the project's Kanban page please click [here]().
 
 ## User Stories
 
@@ -179,8 +245,166 @@ I was testing for responsiveness on an Ideapad laptop and a Samsung Galaxy A5 us
 
 ### Manual testing
 
+#### Account Registration Tests
+| Test |Result  |
+|--|--|
+| User can create profile | Pass |
+| User can log into profile | Pass |
+| User can log out of profile | Pass |
+| Messages are displaying | Pass |
+| Messages are dismissable by button and timeout | Pass |
 
 
+
+---
+
+#### User Navigation Tests
+
+| Test | Result  |
+|--|--|
+| User can easily navigate to Bookings | Pass |
+| User can access About Us page| Pass|
+| User access their account page|Pass|
+| User can access the card content in About Us|Pass|
+| SuperUser can access admin page|Pass|
+
+
+
+---
+
+#### Account Authorisation Tests
+
+| Test | Result  |
+|--|--|
+| Only Superuser can access admin page |Pass|
+| Non authorised user book a table | Pass |
+| Non authorised user won't access profile page| Pass|
+
+
+
+---
+
+#### Booking and Profile Tests
+
+| Test |Result  |
+|--|--|
+|User can make a booking | Pass |
+|User can view all of their bookings | Pass |
+|User can delete their booking | Pass |
+|User can edit booking | Pass |
+|User can make more than one booking | Pass |
+|User can delete their account | Pass |
+|User can edit their information | Pass |
+|User can see the confirmation information | Pass |
+
+
+
+---
+
+#### Admin Tests
+
+| Test |Result  |
+|--|--|
+|Items display correctly on front-end when updated / added |Pass|
+|Admin can confirm or decline bookings |Pass|
+
+
+##### [ Back to table of contents ](#table-of-contents)
+
+---
+ 
+# Known bugs 
+
+- I observed one blue submit button- it is automatically generated by crispy forms and somehow the form settings did not applied to this button. It's a small bug of low priority for me at the current stage.
+- There's small image clipping during the cat carousel transitions on smaller screens.
+- No error message displaying when passing wrong login details
+- The function that was supposed to prevent booking dates in the past is currently preventing nothing, unfortunately... You may be brave and try to trick the system into timetravelling, but Admin will always see what day the booking was made on anyway and won't accept such a silly tricks!
+
+
+##### [ Back to table of contents ](#table-of-contents)
+
+---
+
+# Deployment
+
+#### The deployment stage of the website should follow the steps below:
+
+> Create the Heroku app
+
+- Sign up / Log in to Heroku
+- In Heroku Dashboard page select 'New' and then 'Create New App'
+- Name a project - I decided on the Cat Beans Café (the app's name must be unique)
+- Select EU as that was my region in the moment of creating the app
+- Select "Create App"
+- In the "Deploy" tab choose GitHub as the deployment method
+- Connect your GitHub account/ find and connect your GitHub repository
+
+> Set up enviroment variables
+
+- In the Django app editor create env.py in the top level
+- In env.py import os
+- In env.py set up necessary enviroment variables:
+  - add a secret key using: os.environ['SECRET_KEY'] = 'your secret key'
+  - for the database variable the line should include os.environ['DATABASE_URL']= 'Paste the database link in here'
+  - in settings.py replace value of SECRET_KEY variable with os.environ.get('SECRET_KEY')
+  - in settings.py change the value of DATABASES variable to 'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+- In Django app's settings.py on top of the file add:
+```
+from pathlib import Path
+import os
+import dj_database_url
+if os.path.isfile('env.py'):
+    import env
+```
+- Navigate to the "Settings" tab in Heroku.
+- Open the "Config Vars" section and add DATABASE_URL as Key and the database link from app's env.py as Value
+- Add SECRET_KEY for the Key value and the secret key value from env.py as the Value
+- In the terminal migrate the models over to the new database connection
+- In settings.py add the STATIC files settings as follows:
+```
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+```
+- Change the templates directory in settings.py to: TEMPLARES_DIR = os.path.join(BASE_DIR, 'templates')
+- In TEMPLATES variable change the 'DIRS' key to look like this: 'DIRS': [TEMPLARES_DIR],
+- Add Heroku to the ALLOWED_HOSTS list (the format will be your-app-name.herokuapp.com, you can copy it from the Domains section in Settings tab in your Heroku app)
+- If you haven't done that up to this point, then create in your Django app's code editor new top level folders: static and templates
+- Create a new file on the top level directory - Procfile, remembering to use a capital letter
+- Within the Procfile add following:
+```
+web: guincorn PROJECT_NAME.wsgi
+``` 
+- In the terminal, add the changed files, commit and push to GitHub
+
+> Heroku deployment
+
+- In Heroku, navigate to the Deployment tab and deploy the branch manually 
+- Heroku will display a build log- watch the build logs for any errors
+- Once the build process is completed Heroku displays 'Your App Was Successfully Deployed' message and a link to the app to visit the live site
+- As my first 2 build attempts failed I needed to apply changes to my code (I forgot to set up the static files and templates) to successfully deploy on the 3rd time 
+
+#### Forking the repository
+
+By forking the GitHub Repository you can make a copy of the original repository to view or change without it effecting the original repository. You can do this with following steps:
+
+- Log in to GitHub or create an account
+- Enter this [repository link](https://github.com/TulaUnogi/cat-beans-cafe)
+- Select "Fork" from the top of the repository
+- A copy of the repository should now be created in your own repository
+
+#### Create a clone of this repository
+
+Creating a clone enables you to make a copy of the current version of this repository to run the project locally. To do this follow steps below:
+
+- Navigate to https://github.com/TulaUnogi/cat-beans-cafe
+- Click on the <>Code button at the top of the list of files
+- Select the "HTTPS" option on the "Local" tab and copy the URL it provides to the clipboard
+- Navigate to your code editor and in the terminal change the directory to your chosen location 
+- Type "git clone" and paste the GitHub repository's link
+- Press enter and git will clone the repository for you
+
+##### [ Back to table of contents ](#table-of-contents)
 
 
 
