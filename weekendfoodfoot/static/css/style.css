@@ -3,7 +3,7 @@ body {
 }
 
 .navbar-custom {
-    background-color: #ffffff; /* Couleur de fond */
+    background-color: #d5aaaa; /* Couleur de fond */
     justify-content: space-between; /* Espacement entre les éléments */
     align-items: center;
 }
@@ -95,7 +95,7 @@ body {
 }
 
 .footer-custom {
-    background-color: #f8f9fa; /* Ajustez selon votre palette de couleurs */
+    background-color: #504e0f; /* Ajustez selon votre palette de couleurs */
     color: #212529; /* Couleur du texte */
     padding: 40px 40px;
 }
@@ -185,7 +185,7 @@ body {
     display: flex; /* Utilisez Flexbox pour centrer le contenu */
     align-items: center; /* Centre verticalement */
     justify-content: center; /* Centre horizontalement */
-    color: white; /* Texte en blanc */
+    color: rgb(184, 174, 174); /* Texte en blanc */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Effet d'ombre sur le texte */
 }
 
@@ -385,7 +385,7 @@ body {
 
 .sub-section-2, .sub-section-3 {
     height: 90vh;
-    background-color: #ffffff;
+    background-color: #ddeac5;
     display: flex!important;
     align-items: center!important;
     justify-content: center!important;
@@ -393,7 +393,7 @@ body {
 
 .sub-section-3 {
     height: 90vh;
-    background-color: #ffffff;
+    background-color: #cccbc1;
     display: flex!important;
     align-items: center!important;
     justify-content: center!important;
@@ -450,7 +450,7 @@ body {
     position: relative;
     background-image: url('../images/logo3.png'); /* Remplacez par le chemin de votre image */
     background-size: contain; /* Couvre entièrement la section avec l'image */
-    background-position: 50% 75%; /* Centre l'image */
+    background-position: 90% 95%; /* Centre l'image */
     background-repeat: no-repeat;
     height: 90vh;
     display: flex!important;
@@ -461,7 +461,7 @@ body {
 
 .sub-section-4 {
     height: 90vh;
-    background-color: #ffffff;
+    background-color: #ddaaaa;
     display: flex!important;
     align-items: center!important;
     justify-content: end!important;
@@ -510,8 +510,8 @@ body {
     top: 60px;
     left: 0;
     padding: 10px;
-    background-color: #f8f9fa;
-    border: 1px solid #dee2e6;
+    background-color: #c1c9a7;
+    border: 1px solid #c1d3e5;
     border-radius: 5px;
     z-index: 1000;
     width: 80%!important;

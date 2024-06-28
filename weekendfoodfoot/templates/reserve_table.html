@@ -19,7 +19,7 @@
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">{{ table.get_name_display }}</h5>
                     <p class="card-text">{{ table.description }} ({{ table.seats }} places)</p>
-                    <p class="card-text">Prix: {{ table.price }} €</p>
+                    <p class="card-text">Prix: {{ table.price }} £</p>
 
                     {% if table.is_available %}
                     
@@ -38,7 +38,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="time-{{ forloop.counter }}" class="form-label">Reservation time :</label>
-                            <input id="time-{{ forloop.counter }}" type="time" name="time" value="{{ request.POST.time|default:'12:00' }}" class="form-control" required>
+                            <input id="time-{{ forloop.counter }}" type="time" name="time" value="{{ request.POST.time|default:'15:00' }}" class="form-control" required>
                         </div>
                         <div class="mb-3">
                             <label for="duration-{{ forloop.counter }}" class="form-label">Duration of the reservation (6h max) :</label>
