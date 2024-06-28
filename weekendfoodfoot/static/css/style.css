@@ -271,7 +271,7 @@ body {
 @media screen and (min-width: 769px) {
     .section-bg-6 {
         position: relative;
-        background-image: url('../images/Servant.jpg'); /* Remplacez par le chemin de votre image */
+        background-image: url('../images/Chefs_team.jpg'); /* Remplacez par le chemin de votre image */
         background-size: contain; /* Couvre entièrement la section avec l'image */
         background-position: left; /* Centre l'image */
         background-repeat: no-repeat;

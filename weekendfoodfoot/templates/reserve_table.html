@@ -41,8 +41,8 @@
                             <input id="time-{{ forloop.counter }}" type="time" name="time" value="{{ request.POST.time|default:'12:00' }}" class="form-control" required>
                         </div>
                         <div class="mb-3">
-                            <label for="duration-{{ forloop.counter }}" class="form-label">Duration of the reservation (2h max) :</label>
-                            <input id="duration-{{ forloop.counter }}" type="number" name="duration" min="1" max="2" value="{{ request.POST.duration|default:2 }}" class="form-control" required>
+                            <label for="duration-{{ forloop.counter }}" class="form-label">Duration of the reservation (6h max) :</label>
+                            <input id="duration-{{ forloop.counter }}" type="number" name="duration" min="1" max="6" value="{{ request.POST.duration|default:6 }}" class="form-control" required>
                         </div>
                         <button type="submit" class="btn btn-primary btn-readmore">Book</button>
                     </form>

@@ -60,10 +60,10 @@
                 Are you sure you wand to cancelled this booking ?
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <form id="cancelForm" method="post" action="">
                     {% csrf_token %}
-                    <button type="submit" class="btn btn-danger">Annuler</button>
+                    <button type="submit" class="btn btn-danger">Cancelled</button>
                 </form>
             </div>
         </div>
@@ -84,10 +84,10 @@
                 are you sure you wand to delete your account ?
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelled</button>
                 <form id="deleteForm" method="post" action="{% url 'account_delete' %}">
                     {% csrf_token %}
-                    <button type="submit" class="btn btn-danger">Supprimer</button>
+                    <button type="submit" class="btn btn-danger">Delete</button>
                 </form>
             </div>
         </div>

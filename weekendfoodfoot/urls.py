@@ -47,3 +47,7 @@ urlpatterns = [
     path('reservation/cancel/<int:reservation_id>/', views.cancel_reservation, name='cancel_reservation'),
     path('reservation/cancel/confirmation/', views.cancel_confirmation, name='cancel_confirmation'),
 ]
+
+admin.site.index_title = "Weekend Food Foot"
+admin.site.site_header = "The Weekend Food Foot Admin"
+admin.site.site_title = "WeekendFoodFoot Restaurant"
