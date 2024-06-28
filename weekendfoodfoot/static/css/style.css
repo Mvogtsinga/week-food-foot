@@ -3,7 +3,7 @@ body {
 }
 
 .navbar-custom {
-    background-color: #d5aaaa; /* Couleur de fond */
+    background-color: #eff2f4; /* Couleur de fond */
     justify-content: space-between; /* Espacement entre les éléments */
     align-items: center;
 }
@@ -95,7 +95,7 @@ body {
 }
 
 .footer-custom {
-    background-color: #504e0f; /* Ajustez selon votre palette de couleurs */
+    background-color: #cad7dde3; /* Ajustez selon votre palette de couleurs */
     color: #212529; /* Couleur du texte */
     padding: 40px 40px;
 }
