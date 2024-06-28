@@ -434,7 +434,7 @@ body {
 
 /***********************************************************************************************/
 .login-background {
-    background-image: url('../images/logo3.png');
+    background-image: url('../images/Restaurant_WFF.jpg');
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -448,7 +448,7 @@ body {
 }
 .section-bg-5 {
     position: relative;
-    background-image: url('../images/Menu_WFF.png'); /* Remplacez par le chemin de votre image */
+    background-image: url('../images/logo3.png'); /* Remplacez par le chemin de votre image */
     background-size: contain; /* Couvre entièrement la section avec l'image */
     background-position: 50% 75%; /* Centre l'image */
     background-repeat: no-repeat;
