@@ -72,7 +72,7 @@ def reserve_table(request):
         table_type_id = request.POST.get('table_type')
         date_str = request.POST.get('date')
         time_str = request.POST.get('time')
-        duration = int(request.POST.get('duration', 2))  # Par défaut, 2 heures
+        duration = int(request.POST.get('duration', 6))  # Par défaut, 2 heures
 
         table_type = TableType.objects.get(id=table_type_id)
 
@@ -91,7 +91,7 @@ def reserve_table(request):
                 duration=timedelta(hours=duration)
             )
             reservation.save()
-            messages.success(request, "Votre réservation a été effectuée avec succès.")
+            messages.success(request, "Your booking has been made successfully.")
         except ValidationError as e:
             messages.error(request, e.message)
         return redirect('account')
@@ -126,7 +126,7 @@ def contact(request):
             ['mvogtsinga@gmail.com'],  # Email de réception
             fail_silently=False,
         )
-        messages.success(request, "Votre message a été envoyé avec succès.")
+        messages.success(request, "Your message has been sent successfully.")
         return redirect('contact')
 
     return render(request, 'contact.html')

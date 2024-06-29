@@ -243,7 +243,7 @@ body {
 @media screen and (min-width: 769px) {
     .section-bg-2 {
         position: relative;
-        background-image: url('../images/Menu_WFF.png'); /* Remplacez par le chemin de votre image */
+        background-image: url('../images/Wff_Menu.png'); /* Remplacez par le chemin de votre image */
         background-size: contain; /* Couvre entièrement la section avec l'image */
         background-position: 20% 50%; /* Centre l'image */
         background-repeat: no-repeat;

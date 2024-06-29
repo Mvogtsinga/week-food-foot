@@ -9,10 +9,10 @@ class MyUserCreationForm(UserCreationForm):
         model = User
         fields = ['username', 'email', 'password1', 'password2']
         labels = {
-            'username': 'Nom d’utilisateur',
-            'email': 'Adresse email',
-            'password1': 'Mot de passe',
-            'password2': 'Confirmation du mot de passe',
+            'username': 'Username',
+            'email': 'Email',
+            'password1': 'Password',
+            'password2': 'Confirm password',
         }
 
     def __init__(self, *args, **kwargs):

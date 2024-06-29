@@ -8,10 +8,10 @@ class TableType(models.Model):
     TYPE_CHOICES = [
         ('COUPLE', 'Couple'),
         ('FAMILIAL', 'Familial'),
-        ('INDIVIDUAL', 'Individuel'),
+        ('INDIVIDUAL', 'Individual'),
         ('VIP', 'VIP'),
-        ('EXTRA_FAMILLE', 'Extra Famille'),
-        ('FAMILIAL_MIXTE', 'Famille Mixte'),
+        ('LARGE_GROUP', 'Large Group'),
+        ('FOOTBALL_TEAM', 'Football team'),
     ]
     name = models.CharField(max_length=50, choices=TYPE_CHOICES, unique=True)
     seats = models.IntegerField(default=2)
@@ -30,8 +30,8 @@ class TableType(models.Model):
 
 class Reservation(models.Model):
     STATUS_CHOICES = [
-        ('V', 'Valide'),
-        ('T', 'Terminé'),
+        ('C', 'Confirm'),
+        ('A', 'Archived'),
     ]
 
     user = models.ForeignKey(User, on_delete=models.CASCADE)
@@ -39,7 +39,7 @@ class Reservation(models.Model):
     date = models.DateField(default=timezone.now)
     time = models.TimeField(default=timezone.now)
     duration = models.DurationField(default=timedelta(hours=2))
-    status = models.CharField(max_length=1, choices=STATUS_CHOICES, default='V')
+    status = models.CharField(max_length=1, choices=STATUS_CHOICES, default='C')
 
     class Meta:
         unique_together = ('table_type', 'date', 'time')
@@ -63,7 +63,7 @@ class Reservation(models.Model):
             other_start = datetime.combine(reservation.date, reservation.time)
             other_end = other_start + reservation.duration
             if other_start < reservation_end and reservation_start < other_end:
-                raise ValidationError(f"La table {self.table_type} n'est pas disponible à cette heure.")
+                raise ValidationError(f"table {self.table_type} is not available at this time.")
 
     def status_color(self):
         now = timezone.now()

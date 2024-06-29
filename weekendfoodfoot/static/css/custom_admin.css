@@ -1,6 +1,7 @@
 /* custom_admin.css */
 body {
     background-color: #4b8bbe; /* Exemple: Changer la couleur de fond */
+    background-image: url('../images/Admin_table.jpg');
 }
 
 #header {
