@@ -143,26 +143,30 @@ The User Stories include the acceptance criteria and are broken down into smalle
 
 > List of Mandatory User Stories
 
-1. [USER STORY: DEPLOYMENT](https://github.com/TulaUnogi/cat-beans-cafe/issues/16)
-2. [USER STORY: ADMIN PANEL](https://github.com/TulaUnogi/cat-beans-cafe/issues/17)
-3. [USER STORY: CREATE AN ACCOUNT](https://github.com/TulaUnogi/cat-beans-cafe/issues/18)
-4. [USER STORY: EDITING PROFILE](https://github.com/TulaUnogi/cat-beans-cafe/issues/22)
-5. [USER STORY: DELETING PROFILE](https://github.com/TulaUnogi/cat-beans-cafe/issues/23)
-6. [USER STORY: TABLE BOOKING](https://github.com/TulaUnogi/cat-beans-cafe/issues/21)
-7. [USER STORY: NAVBAR AND FOOTER](https://github.com/TulaUnogi/cat-beans-cafe/issues/20)
-8. [USER STORY: ABOUT US](https://github.com/TulaUnogi/cat-beans-cafe/issues/19)
-9. [USER STORY: MENU](https://github.com/TulaUnogi/cat-beans-cafe/issues/26)
-10. [USER STORY: GOOGLE MAPS](https://github.com/TulaUnogi/cat-beans-cafe/issues/25)
+1. [USER STORY: LOGIN](https://github.com/users/Mvogtsinga/projects/9?pane=issue&itemId=69389784)
+2. [USER STORY: SUPERUSER PANEL](https://github.com/Mvogtsinga/week-food-foot/issues/2)
+3. [USER STORY: CREATE AN ACCOUNT](https://github.com/users/Mvogtsinga/projects/9?pane=issue&itemId=69395450)
+4. [USER STORY: RESERVATION CANCELLATION](https://github.com/users/Mvogtsinga/projects/9?pane=issue&itemId=69391821)
+5. [USER STORY: BOOK A TABLE](https://github.com/users/Mvogtsinga/projects/9?pane=issue&itemId=69394094)
+6. [USER STORY: NAVBAR AND FOOTER](https://github.com/Mvogtsinga/week-food-foot/issues/1)
+7.  [USER STORY: MENU](https://github.com/Mvogtsinga/week-food-foot/issues/3)
+8.  [ USER STORY: DEPLOYMENT](https://github.com/users/Mvogtsinga/projects/9?pane=issue&itemId=69402617)
 
-> NINTH: Not Important, Nice To Have
-
-11. [USER STORY: CAT CAROUSEL](https://github.com/TulaUnogi/cat-beans-cafe/issues/24)
-12. [USER STORY: BOOKING CANCELLATION](https://github.com/TulaUnogi/cat-beans-cafe/issues/27)
 
 ##### [ Back to table of contents ](#table-of-contents)
 
 
 # features-implemented
+
+- [USER STORY: LOGIN](https://github.com/users/Mvogtsinga/projects/9?pane=issue&itemId=69389784)
+- [USER STORY: SUPERUSER PANEL](https://github.com/Mvogtsinga/week-food-foot/issues/2)
+- [USER STORY: CREATE AN ACCOUNT](https://github.com/users/Mvogtsinga/projects/9?pane=issue&itemId=69395450)
+- [USER STORY: RESERVATION CANCELLATION](https://github.com/users/Mvogtsinga/projects/9?pane=issue&itemId=69391821)
+- [USER STORY: BOOK A TABLE](https://github.com/users/Mvogtsinga/projects/9?pane=issue&itemId=69394094)
+- [USER STORY: NAVBAR AND FOOTER](https://github.com/Mvogtsinga/week-food-foot/issues/1)
+- [USER STORY: MENU](https://github.com/Mvogtsinga/week-food-foot/issues/3)
+- [ USER STORY: DEPLOYMENT](https://github.com/users/Mvogtsinga/projects/9?pane=issue&itemId=69402617)
+
 
 ### Navbar and Footer:
 
@@ -189,24 +193,15 @@ The User Stories include the acceptance criteria and are broken down into smalle
 - User can delete their account alltogether with all their data
 - The authentication process is safe thanks to [Django-AllAuth](https://github.com/pennersr/django-allauth) and csrf tokens.
 
-### Bookings:
+### Reservations:
 
-- User can pass their data to create a booking.
-- User can edit their selected booking.
-- Currently the initial version of booking cancellation view has not been fully implemented. I decided to implement an automatic delete_booking view, that allows User to quickly remove their booking from the system.
+- User can pass their data to create a reservation.
+- User can edit their selected reservation.
 
 ### Responsiveness:
 
 - Website is responsive thanks to Bootstrap and media queries applied.
 - There's a hamburger navbar on small devices.
-
-##### [ Back to table of contents ](#table-of-contents)
-
-# feature left to implement
-
-Features Left to Implement
-
-- [USER STORY: BOOKING CANCELLATION] (https://wff-ba2fd89f325f.herokuapp.com/account/) - As I've mentioned the initial version of this model is left for now since customer can currently fully delete their booking. 
 
 ##### [ Back to table of contents ](#table-of-contents)
 
