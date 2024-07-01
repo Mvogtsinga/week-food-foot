@@ -12,14 +12,13 @@ A responsive,restaurant website with registration and table booking system with 
 
  1. [ UX ](#ux)
  2. [ Agile Development ](#agile-development)
- 3. [ Features implemented ](#features-implemented)  
- 4. [ Features Left to Implement ](#features-left-to-implement)  
- 5. [ Technology used ](#technology-used) 
- 6. [ Testing ](#testing)  
- 7. [ Bugs ](#known-bugs)  
- 8. [ Deployment](#deployment)
- 9. [ Resources ](#resources)  
- 10. [ Credits and acknowledgements ](#credits-and-acknowledgements)
+ 3. [ Features implemented ](#features-implemented)
+ 4. [ Technology used ](#technology-used)
+ 5. [ Testing ](#testing)
+ 6. [   Bugs ](#known-bugs)
+ 7. [  Deployment](#deployment)
+ 8. [ Resources ](#resources)
+ 9. [ Credits and acknowledgements ](#credits-and-acknowledgements)
 
 
 # UX
@@ -68,21 +67,46 @@ A responsive,restaurant website with registration and table booking system with 
 
 > Initial design planning
 
-Before starting to code, I chose to take some time to imagine the design of the home page of a restaurant.
-I wanted my website to look professional and modern. playing with yellow and black colours seems perfect for my project.
+Before starting to code, I chose to take some time to imagine the design of the home page of a restaurant and a Logo.
+I wanted my website to look professional and modern. playing with somes colours like yellow, black, white and orange seems perfect for my project.
 ![Home_WFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/f8f7c0be-e463-4070-8592-48edcea2a137)
+
+> Homepage
+
+![Home_WFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/78d9f5a2-2f6d-4e12-bef1-b0f335d10bab)
+
+> Sign up_page
+
+![Sign_Up_WFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/fc4ba4c1-b7f1-4b85-a1bc-5dfb272c1a2c)
+
+> UserLogin_page
+
+![UserLoginPortal_sWFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/5d3eadc6-f9dd-4b61-83bc-9ff153d764f1)
+
+>Menu_page
+
+![Menu_sWFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/92fd112d-ce6c-4a3c-930a-0cc656c305f9)
+
+> Reserves_table_page
+
+![Services_sWFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/8cf3cec7-9d73-42db-a369-4f3ce83df84a)
+
+> Admin_page
+
+![Admin_page](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/3ee00cee-aafd-4f04-a441-79d8491c8fcd)
+
 
 #### Site User
 
-- Someone over 16 years old from the restaurant's area
-- A Footballs fan looking for the place to view a games,to eat and to relax
-- Someone who prefers to arrange their bookings digitally rather than over the phone or in person
-
+- Priority for someone in the restaurant area
+- A football's fan looking for a place to enjoy footballs game and food
+- someone who prefers to arrange their reservations online rather than over person or phone
+  
 #### Goals for the website
 
-- To allow client to see the menu before visiting the restaurant
-- To allow client to plan and book a table in advance
-- To safely store the bookings data and make it available for the superuser to approve or decline it in an easy way
+- To allow customer to see the menu before visiting the restaurant
+- To allow customer to plan and book a table in advance
+- To safely store the reservations data and make it available for the superuser to approve or decline it in an easy way
 
 ### Wireframes
 
@@ -107,41 +131,19 @@ I used the wireframe [Balsamiq](https://www.balsamiq.com) to have a clear view a
 ![account_page_wireframe](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/fd5dccf8-3817-4b8c-b642-f8a8610d937a)
 
 
-
-## UX design
-
-
-## Overview
-## Design
-Initial design planing
-The first design of this project was to choice and appeling picture for the homepage and login features prototypes.
-
-![Home_WFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/78d9f5a2-2f6d-4e12-bef1-b0f335d10bab)
-
-![Sign_Up_WFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/fc4ba4c1-b7f1-4b85-a1bc-5dfb272c1a2c)
-
-![UserLoginPortal_sWFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/5d3eadc6-f9dd-4b61-83bc-9ff153d764f1)
-
-![Menu_sWFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/92fd112d-ce6c-4a3c-930a-0cc656c305f9)
-
-![Services_sWFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/8cf3cec7-9d73-42db-a369-4f3ce83df84a)
-
-![Admin_page](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/3ee00cee-aafd-4f04-a441-79d8491c8fcd)
-
-
-
 # Agile Development
 ## Overview
 
-I started this project alongside GitHub Projects with intention of planning and tracking the workflow to manage the expected workload. After setting out the epics for my project I broke them down into a set of user stories and smaller tasks, to help me monitor my progress and finish the website in time. Outside of user stories I also included a separate issues for creating each module of this README file, as I simply found it more motivating this way. To see the project's Kanban page please click [here]().
+I initiated this project in conjunction with GitHub Projects with the goal of organizing and monitoring the workflow to effectively handle the anticipated workload. Once I outlined the epics for my project, I further divided them into a series of user stories and smaller tasks to facilitate tracking my advancement and completing the website on schedule. In addition to user stories, I created individual issues for developing each module of this README file, as I found this approach to be more inspiring. To view the project's Kanban page, please click [here](https://github.com/users/Mvogtsinga/projects/9).
 
 ## User Stories
 
-Initial stage of the project included stepping into the shoes of the future User. I thought about the features and functionality I would expect from the first use of the website and based on that I created a set of 12 User Stories. I labelled 10 of them as mandatory, as they provide the core functionality and source of important informations for the User. The remaining 2 Stories are labelled as NINTH- Nice To Have, Not Important, as they provide some improvements, but are not necessary for the User to enjoy the website's base functionality. 
+Initial stage of the project included stepping into the shoes of the future User. I thought about the features and functionality I would expect from the first use of the website and based on that I created a set of 8 User Stories. I labelled it  as important, as they provide the core functionality and source of essential informations for the User.base functionality. 
 
 The User Stories include the acceptance criteria and are broken down into smaller, bite- size tasks that I would tick on completion, so I could easily track my progress. During the coding session I would record the encountered bugs, issues and solutions related to the Story in the comments below. Once all of the tasks in the Issue are completed I would move the User Story form "In progress" to "Completed" card im my project's Kanban.
 
-> List of Mandatory User Stories
+
+> List of Important User Stories
 
 1. [USER STORY: LOGIN](https://github.com/users/Mvogtsinga/projects/9?pane=issue&itemId=69389784)
 2. [USER STORY: SUPERUSER PANEL](https://github.com/Mvogtsinga/week-food-foot/issues/2)
@@ -171,24 +173,24 @@ The User Stories include the acceptance criteria and are broken down into smalle
 ### Navbar and Footer:
 
 - Navbar and footer are present on every page
-- Navbar's content changes depending on user authentication, allowing access to profile and user bookings
-- Footer includes café's opening times, social links and address to provide the necessary informations in an easy way.
+- Navbar's content changes depending on user authentication, allowing access to user reservations
+- Footer includes restaurants location, social links,sitemap, reservations buttonm and a copyright notice to provide the necessary informations in a simpler way.
 
 ### Index page:
 
-- The homepage provides the links to booking and about us page.
-- It can be accessed without signing in.
+- The homepage provides the links to reservation and restaurant page.
+- It can  be accessed without signing in.
 
-### About Us page:
+### Home page:
 
-- Main page includes a short information about the café and set of 4 cards with pictures and description.
+- Main page includes a short information about the restaurant  set of  cards with pictures and description.
 - Each of the card includes the button, that triggers a fullscreen modal.
-- The modals contain informations about the menu, contact details with embedded google maps, link to booking page and gallery with cat pictures (cat carousel).
-- About Us page can be accessed without signing in.
+- The modals contain informations about the menu, 
+- Home page can be accessed with signing in.
 
 ### Authentication and profile management:
 
-- User can sign up to create their profile 
+- User can sign up  
 - User can log in to their account and update their informations
 - User can delete their account alltogether with all their data
 - The authentication process is safe thanks to [Django-AllAuth](https://github.com/pennersr/django-allauth) and csrf tokens.
@@ -239,7 +241,7 @@ I was testing for responsiveness on an Ideapad laptop and a Samsung Galaxy A5 us
 ![Index page](static/images/readme-images/responsive-index.png)
 
 
-> About Us page:
+> Home page:
 
 ![Index page](static/images/readme-images/responsive-about.png)
 
@@ -260,11 +262,9 @@ I was testing for responsiveness on an Ideapad laptop and a Samsung Galaxy A5 us
 #### Account Registration Tests
 | Test |Result  |
 |--|--|
-| User can create profile | Pass |
-| User can log into profile | Pass |
-| User can log out of profile | Pass |
+| User can create account | Pass |
 | Messages are displaying | Pass |
-| Messages are dismissable by button and timeout | Pass |
+| Messages are dismissable by button | Pass |
 
 
 
@@ -274,10 +274,10 @@ I was testing for responsiveness on an Ideapad laptop and a Samsung Galaxy A5 us
 
 | Test | Result  |
 |--|--|
-| User can easily navigate to Bookings | Pass |
-| User can access About Us page| Pass|
+| User can easily navigate to Reservation | Pass |
+| User can access Home page| Pass|
 | User access their account page|Pass|
-| User can access the card content in About Us|Pass|
+| User can access the card content in Home|Pass|
 | SuperUser can access admin page|Pass|
 
 
@@ -289,24 +289,24 @@ I was testing for responsiveness on an Ideapad laptop and a Samsung Galaxy A5 us
 | Test | Result  |
 |--|--|
 | Only Superuser can access admin page |Pass|
-| Non authorised user book a table | Pass |
-| Non authorised user won't access profile page| Pass|
+| Non authorised user can not book a table | Pass |
+| Non authorised user won't access account page| Pass|
 
 
 
 ---
 
-#### Booking and Profile Tests
+#### Reservations Tests
 
 | Test |Result  |
 |--|--|
-|User can make a booking | Pass |
-|User can view all of their bookings | Pass |
-|User can delete their booking | Pass |
-|User can edit booking | Pass |
-|User can make more than one booking | Pass |
+|User can make a reservation | Pass |
+|User can view all of their reservations | Pass |
+|User can delete their reservation | Pass |
+|User can edit reservation | Pass |
+|User can make more than one reservation | Pass |
 |User can delete their account | Pass |
-|User can edit their information | Pass |
+|User can change their information | Pass |
 |User can see the confirmation information | Pass |
 
 
@@ -328,7 +328,7 @@ I was testing for responsiveness on an Ideapad laptop and a Samsung Galaxy A5 us
 # Known bugs 
 
 - I observed one blue submit button- it is automatically generated by crispy forms and somehow the form settings did not applied to this button. It's a small bug of low priority for me at the current stage.
-- There's small image clipping during the cat carousel transitions on smaller screens.
+- There's small image clipping during the  transitions on smaller screens.
 - No error message displaying when passing wrong login details
 - The function that was supposed to prevent booking dates in the past is currently preventing nothing, unfortunately... You may be brave and try to trick the system into timetravelling, but Admin will always see what day the booking was made on anyway and won't accept such a silly tricks!
 
@@ -345,7 +345,7 @@ I was testing for responsiveness on an Ideapad laptop and a Samsung Galaxy A5 us
 
 - Sign up / Log in to Heroku
 - In Heroku Dashboard page select 'New' and then 'Create New App'
-- Name a project - I decided on the Cat Beans Café (the app's name must be unique)
+- Name a project - I decided on the week-food-foot (the app's name must be unique)
 - Select EU as that was my region in the moment of creating the app
 - Select "Create App"
 - In the "Deploy" tab choose GitHub as the deployment method
@@ -394,14 +394,14 @@ web: guincorn PROJECT_NAME.wsgi
 - In Heroku, navigate to the Deployment tab and deploy the branch manually 
 - Heroku will display a build log- watch the build logs for any errors
 - Once the build process is completed Heroku displays 'Your App Was Successfully Deployed' message and a link to the app to visit the live site
-- As my first 2 build attempts failed I needed to apply changes to my code (I forgot to set up the static files and templates) to successfully deploy on the 3rd time 
+
 
 #### Forking the repository
 
 By forking the GitHub Repository you can make a copy of the original repository to view or change without it effecting the original repository. You can do this with following steps:
 
 - Log in to GitHub or create an account
-- Enter this [repository link](https://github.com/TulaUnogi/cat-beans-cafe)
+- Enter this [repository link](https://github.com/Mvogtsinga/week-food-foot)
 - Select "Fork" from the top of the repository
 - A copy of the repository should now be created in your own repository
 
@@ -409,7 +409,7 @@ By forking the GitHub Repository you can make a copy of the original repository 
 
 Creating a clone enables you to make a copy of the current version of this repository to run the project locally. To do this follow steps below:
 
-- Navigate to https://github.com/TulaUnogi/cat-beans-cafe
+- Navigate to https://github.com/Mvogtsinga/week-food-foot
 - Click on the <>Code button at the top of the list of files
 - Select the "HTTPS" option on the "Local" tab and copy the URL it provides to the clipboard
 - Navigate to your code editor and in the terminal change the directory to your chosen location 
