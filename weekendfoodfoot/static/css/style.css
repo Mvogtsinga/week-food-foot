@@ -95,8 +95,8 @@ body {
 }
 
 .footer-custom {
-    background-color: #cad7dde3; /* Ajustez selon votre palette de couleurs */
-    color: #212529; /* Couleur du texte */
+    background-color: #323739e3; /* Ajustez selon votre palette de couleurs */
+    color: #e4eaef; /* Couleur du texte */
     padding: 40px 40px;
 }
 
@@ -185,7 +185,7 @@ body {
     display: flex; /* Utilisez Flexbox pour centrer le contenu */
     align-items: center; /* Centre verticalement */
     justify-content: center; /* Centre horizontalement */
-    color: rgb(184, 174, 174); /* Texte en blanc */
+    color: rgb(246, 242, 242); /* Texte en blanc */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Effet d'ombre sur le texte */
 }
 
@@ -450,7 +450,7 @@ body {
     position: relative;
     background-image: url('../images/logo3.png'); /* Remplacez par le chemin de votre image */
     background-size: contain; /* Couvre entièrement la section avec l'image */
-    background-position: 90% 95%; /* Centre l'image */
+    background-position: 100% 100%; /* Centre l'image */
     background-repeat: no-repeat;
     height: 90vh;
     display: flex!important;
@@ -461,7 +461,7 @@ body {
 
 .sub-section-4 {
     height: 90vh;
-    background-color: #ddaaaa;
+    background-color: #f9f5f5;
     display: flex!important;
     align-items: center!important;
     justify-content: end!important;
