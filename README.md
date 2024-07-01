@@ -89,7 +89,10 @@ I wanted my website to look professional and modern. playing with yellow and bla
 I used the wireframe [Balsamiq](https://www.balsamiq.com) to have a clear view about the futur website as next stage of UX design planning.I wanted to have a realistic overview of my future website and make it easy for the user to navigate throughout the different pages.I plan to build the website like this:
 
 > Login page
-![login_page_wireframe](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/81844646-2438-4954-929f-4acf10759cb4)
+![Login_wireframe](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/a2a425be-a004-406e-8a56-a2cf19317e50)
+
+> Sign_Up page
+![Sign_up_Formular_wiref](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/1ac92b0a-9fd0-42a3-81f1-98f1a4d3dd12)
 
 > Home page
 ![menu_food_page_wireframe](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/c63423e6-38a2-4dad-b826-2ce48bd20667)
@@ -115,14 +118,16 @@ The first design of this project was to choice and appeling picture for the home
 
 ![Home_WFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/78d9f5a2-2f6d-4e12-bef1-b0f335d10bab)
 
-![UserLoginPortal_sWFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/5d3eadc6-f9dd-4b61-83bc-9ff153d764f1)
+![Sign_Up_WFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/fc4ba4c1-b7f1-4b85-a1bc-5dfb272c1a2c)
 
+![UserLoginPortal_sWFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/5d3eadc6-f9dd-4b61-83bc-9ff153d764f1)
 
 ![Menu_sWFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/92fd112d-ce6c-4a3c-930a-0cc656c305f9)
 
 ![Services_sWFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/8cf3cec7-9d73-42db-a369-4f3ce83df84a)
 
-![Admin_sWFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/4756bf1f-5b6e-4c1e-a4c1-c2bc43dbf75c)
+![Admin_page](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/3ee00cee-aafd-4f04-a441-79d8491c8fcd)
+
 
 
 # Agile Development
