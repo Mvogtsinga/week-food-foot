@@ -237,7 +237,7 @@ The site has been built with the following tech and tools:
 I was testing for responsiveness on an AsusVivoBook laptop, a iPhone 14 ProMax and a Samsung Galaxy A5 using the most up to date versions of Google Chrome and Mozilla versions. For more detailed testing I was using Google DevTools.
 
 > Index page:
-- AsusVivoBook and Samsung galaxy ![image](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/263108b2-918e-4d4b-95aa-813e56729fa3)
+- AsusVivoBook and Samsung galaxy ![Login_responsiveness_Computer_phone](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/b010092c-42d6-47d0-a0b0-ebd40c12bf32)
 - iPhone 14 ProMax ![Responsiveness_iPhoneProMax14_login](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/f833d28c-8063-4df5-84ad-30d8cd63fe0a)
 - iPad air ![Lopgin_iPad air ](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/9360ee42-d564-4a8a-9eba-a94c427a8d7d)
 
@@ -246,7 +246,6 @@ I was testing for responsiveness on an AsusVivoBook laptop, a iPhone 14 ProMax a
 > Contact page:
 
 - ![Contact_responsiveness_Phone](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/7b7bdea7-de37-4db5-a0d6-1e403e5a8b44)
-
 
 
 > Sign Up page:
