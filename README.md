@@ -90,7 +90,8 @@ I wanted my website to look professional and modern. playing with somes colours 
 
 > Reserves_table_page
 
-![Services_sWFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/8cf3cec7-9d73-42db-a369-4f3ce83df84a)
+![Reserve_Table_WFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/9ad75b79-2610-4da7-9428-8aa82741e91a)
+
 
 > Admin_page
 
@@ -205,7 +206,7 @@ The User Stories include the acceptance criteria and are broken down into smalle
 
 - Website is responsive thanks to Bootstrap and media queries applied.
 - There's a hamburger navbar on small devices.
-- 
+  
 
 ##### [ Back to table of contents ](#table-of-contents) 
 
