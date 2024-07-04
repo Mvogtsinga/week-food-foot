@@ -433,6 +433,7 @@ Creating a clone enables you to make a copy of the current version of this repos
   
   > Images
 
+
 - [Unsplah](https://unsplash.com/)
 - [Freepik](https://www.freepik.com/)
 - [Postermywall](https://fr.postermywall.com/index.php/posters/mine#/designs)   
@@ -448,24 +449,29 @@ Creating a clone enables you to make a copy of the current version of this repos
 - [Menu_WFF](https://fr.postermywall.com/index.php/art/template/22ed5dc89be68d06ae5171599c95a1a9/restaurant-menu-design-template) by <b> image</b> on Postermywall
 - [Chefs_Team](https://www.freepik.com/free-photo/close-up-chef-cooking-restaurant-kitchen_13273109.htm#fromView=search&page=1&position=2&uuid=c6b0e69d-0517-4c20-bdc0-674e6b168763) by <b> image</b> on Freepik
 
-  > Videos
-  - [How to Use Balsamiq Wireframes](https://www.youtube.com/watch?v=E5Z1QOly72E)
-  - [Django Authentication & User Management - Full Tutorial](https://www.youtube.com/watch?v=WuyKxdLcw3w)
-  - [ Python Django Real Project Tutorial](https://www.youtube.com/watch?v=8w9QGdvW1ls&list=PLFNQLcwO1Gaac9IYeK0lWaB_2XtE-AvWE)
-  - [Django Python Web Framework Crash Course 2022 For Beginners](https://www.youtube.com/watch?v=sD1mvTxHces)
-  - [Heroku Create Account & Connect GitHub](https://www.youtube.com/watch?v=P_SPMW8cJVg)
-  - [PostgreSQL Installation and Create Your First Database](https://www.youtube.com/watch?v=KuQUNHCeKCk)
-  - [CRUD mastery with Django](https://www.youtube.com/watch?v=pqWyUAT38e0&t=562s)
-  - [5 Mini Python Projects - For Beginners](https://www.youtube.com/watch?v=DLn3jOsNRVE&t=3464s)
-  - [How To Use Miro For Beginners](https://www.youtube.com/watch?v=CpV5gQaPxYE)
-  - [How To Write a USEFUL README On Github](https://www.youtube.com/watch?v=E6NO0rgFub4)
-  - [How to pull project from github to visual studio code](https://www.youtube.com/watch?v=_ynMa2XlRgk&t=143s)
-  - [Using Git & GitHub in VSCode: Stage, Commit, and Push](https://www.youtube.com/watch?v=z5jZ9lrSpqk)
+  
+
+
+> Videos
+
+- [How to Use Balsamiq Wireframes](https://www.youtube.com/watch?v=E5Z1QOly72E)
+- [Django Authentication & User Management - Full Tutorial](https://www.youtube.com/watch?v=WuyKxdLcw3w)
+- [ Python Django Real Project Tutorial](https://www.youtube.com/watch?v=8w9QGdvW1ls&list=PLFNQLcwO1Gaac9IYeK0lWaB_2XtE-AvWE)
+- [Django Python Web Framework Crash Course 2022 For Beginners](https://www.youtube.com/watch?v=sD1mvTxHces)
+- [Heroku Create Account & Connect GitHub](https://www.youtube.com/watch?v=P_SPMW8cJVg)
+- [PostgreSQL Installation and Create Your First Database](https://www.youtube.com/watch?v=KuQUNHCeKCk)
+- [CRUD mastery with Django](https://www.youtube.com/watch?v=pqWyUAT38e0&t=562s)
+- [5 Mini Python Projects - For Beginners](https://www.youtube.com/watch?v=DLn3jOsNRVE&t=3464s)
+- [How To Use Miro For Beginners](https://www.youtube.com/watch?v=CpV5gQaPxYE)
+- [How To Write a USEFUL README On Github](https://www.youtube.com/watch?v=E6NO0rgFub4)
+- [How to pull project from github to visual studio code](https://www.youtube.com/watch?v=_ynMa2XlRgk&t=143s)
+- [Using Git & GitHub in VSCode: Stage, Commit, and Push](https://www.youtube.com/watch?v=z5jZ9lrSpqk)
+
 
      
-  > Template
+> Template
 
-[Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template)
+- [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template)
 
 
 ## Acknowledgements
