@@ -238,14 +238,15 @@ I was testing for responsiveness on an AsusVivoBook laptop, a iPhone 14 ProMax a
 
 > Index page:
 - AsusVivoBook and Samsung galaxy ![Login_responsiveness_Computer_phone](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/b010092c-42d6-47d0-a0b0-ebd40c12bf32)
-- iPhone 14 ProMax ![Responsiveness_iPhoneProMax14_login](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/f833d28c-8063-4df5-84ad-30d8cd63fe0a)
-- iPad air ![Lopgin_iPad air ](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/9360ee42-d564-4a8a-9eba-a94c427a8d7d)
+- ![iPad_horizontal_vertical ](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/7b9192e6-30be-4458-91b4-3d93792c3816)
+- ![galaxy_note_hor_vertical](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/965c1cea-4d86-444b-bcdf-f5d47a2b3c38)
 
 
 
-> Contact page:
 
-- ![Contact_responsiveness_Phone](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/7b7bdea7-de37-4db5-a0d6-1e403e5a8b44)
+> sign_up page:
+
+
 
 
 
