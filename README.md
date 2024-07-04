@@ -81,7 +81,7 @@ I wanted my website to look professional and modern. playing with somes colours 
 
 > UserLogin_page
 
-![UserLoginPortal_sWFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/5d3eadc6-f9dd-4b61-83bc-9ff153d764f1)
+![Login_page_WFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/956b7047-ec67-417d-a8ec-a588c9394518)
 
 >Menu_page
 
@@ -246,16 +246,6 @@ I was testing for responsiveness on an AsusVivoBook laptop, a iPhone 14 ProMax a
 > Contact page:
 
 - ![Contact_responsiveness_Phone](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/7b7bdea7-de37-4db5-a0d6-1e403e5a8b44)
-
-
-> Sign Up page:
-
-![Index page](static/images/readme-images/responsive-signup.png)
-
-
-> Sign In page:
-
-![Index page](static/images/readme-images/responsive-sign-in.png)
 
 
 
