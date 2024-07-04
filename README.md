@@ -430,11 +430,12 @@ Creating a clone enables you to make a copy of the current version of this repos
 
 ## Credits
 
-- Images : Unsplash, Freepik,Postermywall
-- templates: code institute
   
-  > Pictures
+  > Images
 
+- [Unsplah](https://unsplash.com/)
+- [Freepik](https://www.freepik.com/)
+- [Postermywall](https://fr.postermywall.com/index.php/posters/mine#/designs)   
 - [Chef_team](https://unsplash.com/photos/man-in-black-t-shirt-holding-stainless-steel-bowl-eBmyH7oO5wY) by <b>Sebastian Coman Photography </b> on Unsplash
 - [Food_WFF](https://unsplash.com/photos/grilled-fish-dish-vBOxsZrfiCw) by <b>Mgg Vitchakorn</b> on Unsplash
 - [Restaurant_WFF](https://unsplash.com/photos/black-pendant-lamp-turned-on-oMTlhdFUhdI) by <b>yMaria Orlova</b> on Unsplash
@@ -446,7 +447,21 @@ Creating a clone enables you to make a copy of the current version of this repos
 -   [Chefs_Team](https://www.freepik.com/free-photo/close-up-chef-cooking-restaurant-kitchen_13273109.htm#fromView=search&page=1&position=2&uuid=c6b0e69d-0517-4c20-bdc0-674e6b168763) by <b> image</b> on Freepik
 - [Menu_WFF](https://fr.postermywall.com/index.php/art/template/22ed5dc89be68d06ae5171599c95a1a9/restaurant-menu-design-template) by <b> image</b> on Postermywall
 - [Chefs_Team](https://www.freepik.com/free-photo/close-up-chef-cooking-restaurant-kitchen_13273109.htm#fromView=search&page=1&position=2&uuid=c6b0e69d-0517-4c20-bdc0-674e6b168763) by <b> image</b> on Freepik
-  
+
+  > Videos
+  - [How to Use Balsamiq Wireframes](https://www.youtube.com/watch?v=E5Z1QOly72E)
+  - [Django Authentication & User Management - Full Tutorial](https://www.youtube.com/watch?v=WuyKxdLcw3w)
+  - [ Python Django Real Project Tutorial](https://www.youtube.com/watch?v=8w9QGdvW1ls&list=PLFNQLcwO1Gaac9IYeK0lWaB_2XtE-AvWE)
+  - [Django Python Web Framework Crash Course 2022 For Beginners](https://www.youtube.com/watch?v=sD1mvTxHces)
+  - [Heroku Create Account & Connect GitHub](https://www.youtube.com/watch?v=P_SPMW8cJVg)
+  - [PostgreSQL Installation and Create Your First Database](https://www.youtube.com/watch?v=KuQUNHCeKCk)
+  - [CRUD mastery with Django](https://www.youtube.com/watch?v=pqWyUAT38e0&t=562s)
+  - [5 Mini Python Projects - For Beginners](https://www.youtube.com/watch?v=DLn3jOsNRVE&t=3464s)
+  - [How To Use Miro For Beginners](https://www.youtube.com/watch?v=CpV5gQaPxYE)
+  - [How To Write a USEFUL README On Github](https://www.youtube.com/watch?v=E6NO0rgFub4)
+  - [How to pull project from github to visual studio code](https://www.youtube.com/watch?v=_ynMa2XlRgk&t=143s)
+  - [Using Git & GitHub in VSCode: Stage, Commit, and Push](https://www.youtube.com/watch?v=z5jZ9lrSpqk)
+
      
   > Template
 
@@ -455,7 +470,6 @@ Creating a clone enables you to make a copy of the current version of this repos
 
 ## Acknowledgements
 
-- I would like to thank my Code Institute mentor for their support throughout the development of this project.
 - I would like to thank the Code Institute Slack community for the moral support; it kept me going during periods of self doubt and imposter syndrome.
 - I would like to thank my family, for believing in me, and allowing me to make this transition into software development.
 - I would like to thank the Bootcamp crew, for supporting me in my career development change towards becoming a software developer.
