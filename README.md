@@ -32,7 +32,7 @@ A responsive,restaurant website with registration and table booking system with 
 ### Data models
 > UserProfile model
 
-- During the evolution of the project the data models looks as follows::
+- During the evolution of the project the data models looks as follows:
 
 | Key | Name | Field |
 |--|--|--|
@@ -70,6 +70,7 @@ A responsive,restaurant website with registration and table booking system with 
 
 Before starting to code, I chose to take some time to imagine the design of the home page of a restaurant and a Logo.
 I wanted my website to look professional and modern. playing with somes colours like yellow, black, white and orange seems perfect for my project.
+
 ![Home_WFF](https://github.com/Mvogtsinga/week-food-foot/assets/152321059/f8f7c0be-e463-4070-8592-48edcea2a137)
 
 > Homepage
@@ -108,7 +109,7 @@ I wanted my website to look professional and modern. playing with somes colours 
 
 - To allow customer to see the menu before visiting the restaurant
 - To allow customer to plan and book a table in advance
-- To safely store the reservations data and make it available for the superuser to approve or decline it in an easy way
+- To safely store the reservations data and make it available for the superuser to approve and edit it  in an easy way
 
 ### Wireframes
 
@@ -142,7 +143,7 @@ I initiated this project in conjunction with GitHub Projects with the goal of or
 
 Initial stage of the project included stepping into the shoes of the future User. I thought about the features and functionality I would expect from the first use of the website and based on that I created a set of 8 User Stories. I labelled it  as important, as they provide the core functionality and source of essential informations for the User.base functionality. 
 
-The User Stories include the acceptance criteria and are broken down into smaller, bite- size tasks that I would tick on completion, so I could easily track my progress. During the coding session I would record the encountered bugs, issues and solutions related to the Story in the comments below. Once all of the tasks in the Issue are completed I would move the User Story form "In progress" to "Completed" card im my project's Kanban.
+The User Stories include the acceptance criteria and are broken down into smaller, bite- size tasks that I would tick on completion, so I could easily track my progress. During the coding session I would record the encountered bugs, issues and solutions related to the Story in the comments below. Once all of the tasks in the Issue are completed I would move the User Story form "In progress" to "Completed" card im my project's Kanban.In flow of the project I forgot to follow this plan.
 
 
 > List of Important User Stories
@@ -193,8 +194,8 @@ The User Stories include the acceptance criteria and are broken down into smalle
 ### Authentication and profile management:
 
 - User can sign up  
-- User can log in to their account and update their informations
-- User can delete their account alltogether with all their data
+- User can log in to their account and update their password
+- User can delete their account 
 - The authentication process is safe thanks to [Django-AllAuth](https://github.com/pennersr/django-allauth) and csrf tokens.
 
 ### Reservations:
