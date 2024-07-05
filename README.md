@@ -351,6 +351,7 @@ I was testing for responsiveness on an AsusVivoBook laptop, a iPad air and a Sam
 - The same message content by reservation and cancellation
 - failed to send a message (eror with the SMTPAuthentication
 - No error message displaying when passing wrong login details
+- Server Error (500) in many functions use case (restaurant, sign up) after turning the debug in to false
   
 
 
