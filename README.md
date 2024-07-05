@@ -213,7 +213,7 @@ The User Stories include the acceptance criteria and are broken down into smalle
 
 # Feature left to implement
 
-The Main feature I did not implement in my project was to give customer the  opportunity to edit their profile. For me personally it was not important. Many peaople don't like to share privat informaions.
+The Main feature I did not implement in my project was to give customer the  opportunity to[edit](https://github.com/Mvogtsinga/week-food-foot/issues/9) their profile. For me personally it was not important. Many peaople don't like to share privat informaions.Without editing a profile you don't also need to [delete](https://github.com/Mvogtsinga/week-food-foot/issues/10) it.
 
 ##### [ Back to table of contents ](#table-of-contents)
 
