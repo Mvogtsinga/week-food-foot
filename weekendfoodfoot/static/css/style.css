@@ -3,7 +3,7 @@ body {
 }
 
 .navbar-custom {
-    background-color: #eff2f4; /* Couleur de fond */
+    background-color: #dbe1e4; /* Couleur de fond */
     justify-content: space-between; /* Espacement entre les éléments */
     align-items: center;
 }
@@ -95,14 +95,14 @@ body {
 }
 
 .footer-custom {
-    background-color: #323739e3; /* Ajustez selon votre palette de couleurs */
+    background-color: #f7fafbe3; /* Ajustez selon votre palette de couleurs */
     color: #e4eaef; /* Couleur du texte */
     padding: 40px 40px;
 }
 
 .footer-custom h5 {
-    color: #000; /* Couleur des titres */
-    border-bottom: 2px solid #c59d5f; /* Ligne sous les titres */
+    color: #3b3939; /* Couleur des titres */
+    border-bottom: 2px solid #b1a591; /* Ligne sous les titres */
     padding-bottom: 10px; /* Espacement sous les titres */
     margin-bottom: 20px; /* Espacement sous la bordure */
 }
@@ -385,7 +385,7 @@ body {
 
 .sub-section-2, .sub-section-3 {
     height: 90vh;
-    background-color: #ddeac5;
+    background-color: #fafaf9;
     display: flex!important;
     align-items: center!important;
     justify-content: center!important;
@@ -393,7 +393,7 @@ body {
 
 .sub-section-3 {
     height: 90vh;
-    background-color: #cccbc1;
+    background-color: #f9f8f6;
     display: flex!important;
     align-items: center!important;
     justify-content: center!important;
@@ -427,9 +427,9 @@ body {
 }
 .btn-readmore:hover {
     color: #000!important;
-    background-color: #f8f9fa!important;
+    background-color: #f7f8f9!important;
     font-weight: 900!important;
-    box-shadow: #FFC107;
+    box-shadow: #f9f8f7;
 }
 
 /***********************************************************************************************/
@@ -491,7 +491,7 @@ body {
 }
 
 .social-icon:hover {
-    color: #666; /* Couleur des icônes au survol */
+    color: #440bb5; /* Couleur des icônes au survol */
 }
 
 .full-img {
@@ -510,8 +510,8 @@ body {
     top: 60px;
     left: 0;
     padding: 10px;
-    background-color: #c1c9a7;
-    border: 1px solid #c1d3e5;
+    background-color: #f2f3f0;
+    border: 1px solid #eff2f4;
     border-radius: 5px;
     z-index: 1000;
     width: 80%!important;
